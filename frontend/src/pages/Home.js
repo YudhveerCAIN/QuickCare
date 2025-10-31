@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import TokenGenerator from '../components/debug/TokenGenerator';
 
 const Home = () => {
   const { isAuthenticated } = useAuth();
@@ -131,6 +132,13 @@ const Home = () => {
               <div className="text-gray-600">Resolution Rate</div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Debug Section - Remove in production */}
+      <div className="bg-gray-100 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <TokenGenerator />
         </div>
       </div>
 

@@ -62,7 +62,7 @@ class PasswordResetService {
             );
 
             // Generate reset URL
-            const resetUrl = `${process.env.FRONTEND_URL || 'http://localhost:3000'}/reset-password?token=${tokenResult.token}`;
+            const resetUrl = `${process.env.FRONTEND_URL || 'http://localhost:3000'}/reset-password/${tokenResult.token}`;
 
             // Send password reset email
             await emailService.sendPasswordResetEmail(user.email, tokenResult.token, resetUrl);

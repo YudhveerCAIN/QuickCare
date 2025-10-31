@@ -98,9 +98,28 @@ class AuthService {
     }
   }
 
-  async resetPassword(token, password) {
+  async verifyResetToken(token) {
     try {
-      const response = await api.post('/auth/reset-password', { token, password });
+      console.log('Making API call to verify token:', `/auth/verify-reset-token/${token}`);
+      const response = await api.get(`/auth/verify-reset-token/${token}`);
+      console.log('API response:', response.data);
+      return { success: true, data: response.data };
+    } catch (error) {
+      console.error('API error:', error.response?.data || error.message);
+      return {
+        success: false,
+        message: error.response?.data?.message || 'Token verification failed'
+      };
+    }
+  }
+
+  async resetPassword(token, newPassword) {
+    try {
+      const response = await api.post('/auth/reset-password', { 
+        token, 
+        newPassword, 
+        confirmPassword: newPassword 
+      });
       return { success: true, data: response.data };
     } catch (error) {
       return {
