@@ -1,0 +1,1001 @@
+Initiative	Epic
+Enabling Secure & Seamless Access	Epic 1: Authentication & OnboardingGoal: Fast, sec
+Enabling Secure & Seamless Access	Epic 1: Authentication & Onboarding
+Enabling Secure & Seamless Access	Epic 1: Authentication & Onboarding
+Enabling Secure & Seamless Access	Epic 1: Authentication & Onboarding
+Enabling Secure & Seamless Access	Epic 1: Authentication & Onboarding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Capacity Planner
+
+
+
+Section
+ 
+A. Initiative	Enabling Secure & Seamless Access
+B. Project Roadmap	Phase 1 (Week 1–Week 2): Focus on quick wins by i
+	Phase 2 (Week 3): Work on major project feature I
+	Phase 3 (Week 4): Implement enhancements includ
+
+C. Capacity Planner	Week 1–2: Allocate resources to build OTP-based S
+	Week 3: Allocate resources for ID Verification devel
+	Week 4: Allocate resources for enhancements inclu
+
+D. List of Milestones	End of Week 2: Completion of OTP-based Signup an
+	End of Week 3: Completion of ID Verification.
+	End of Week 4: Completion of Admin Verification a
+
+E. Mapping of Features & User Stories with Milestones	M1 (Weeks 1–2): Features – OTP-based Signup, Sec
+
+M2 (Week 3): Feature – ID Verification. User Story: M3 (Week 4): Features – Admin and Platform Enha
+ 
+Feature
+Feature 1.1: Registration with OTPBenefit Hypothesis: Citizens onb
+Feature 1.2: JWT LoginBenefit Hypothesis: Users access securely w
+Feature 1.3: Role ManagementBenefit Hypothesis: Access restricte
+Feature 1.4: Profile ManagementBenefit Hypothesis: Users mainta
+Feature 1.5: Password ResetBenefit Hypothesis: Users recover acc
+ 
+
+ 
+User Story
+As a citizen, I want to register using my email and verify via OTP so that I can securely join QuickCare.
+As a user, I want to log in with JWT authentication so that I can securely access the platform.
+As an admin, I want to manage user roles so that only authorized users can access admin features.
+As a user, I want to update my profile so that my information is always accurate.
+As a user, I want to reset my password securely so that I can regain access if I forget it.
+ 
+
+ 
+Acceptance Criteria	Impact	Effort	Story Points
+- User registers with email and OTP- OTP expires in 5 minutes-	5	2	2
+- JWT tokens issued upon login- Invalid tokens rejected- Sessio	5	3	3
+- Default role is Citizen- Admin roles assigned only by sponsor-	3	3	4
+- Users can update profile info- Changes reflected instantly- Pr	4	4	5
+- Reset link sent to registered email- No plain-text passwords s	3	2	4
+ 
+Initiative	Epic
+Enhancing Civic Engagement with Real-Time Reporting	Epic 2: Issue ReportingGoal:
+Enhancing Civic Engagement with Real-Time Reporting	Epic 2: Issue Reporting
+Enhancing Civic Engagement with Real-Time Reporting	Epic 2: Issue Reporting
+Enhancing Civic Engagement with Real-Time Reporting	Epic 2: Issue Reporting
+
+
+
+
+Capacity Planner
+
+
+
+Section	
+A. Initiative	Enhancing Civic Engagement
+B. Project Roadmap	Phase 1 (Weeks 1–2): Imple
+	Phase 2 (Week 3): Develop
+	Phase 3 (Week 4): Enable im
+
+C. Capacity Planner	Weeks 1–2: Focus on backen
+	Week 3: Allocate resources t
+	Week 4: Allocate resources f
+
+D. List of Milestones	End of Week 2: Completion
+	End of Week 3: Completion
+	End of Week 4: Completion
+
+E. Mapping of Features G User Stories with Milestones	M1 (Weeks 1–2): Features –
+
+M2 (Week 3): Feature – Map M3 (Week 4): Feature – Ima
+ 
+Feature
+Feature 2.1: Submit IssueBenefit Hypothesis: Citizens can raise civi
+Feature 2.2: Map Location TaggingBenefit Hypothesis: Authorities
+Feature 2.3: Image UploadsBenefit Hypothesis: Authorities receive
+Feature 2.4: CategorizationBenefit Hypothesis: Authorities prioritiz
+
+
+
+
+
+
+
+
+
+with Real-Time Reporting
+ment features for submitting issues, including issue title, descriptio map location tagging to enable precise location identification by aut age uploads for visual proof and enhance categorization to help au
+
+d and frontend development for issue submission and category m o build and integrate map location tagging functionality, planned f or image upload feature and enhancement of issue categorization,
+
+of issue submission and categorization features. of map location tagging.
+of image uploads and enhanced categorization features.
+
+Submit Issue, Categorization. User Stories: Submit an issue with tit Location Tagging. User Story: Tag issue location on a map for accu ge Uploads. User Story: Upload images with issue report to provide
+ 
+User Story
+As a citizen, I want to submit an issue with a title, description, and category so that I can notify auth
+As a citizen, I want to tag the issue location on a map so that authorities can locate it accurately.
+As a citizen, I want to upload images with my issue report so that I can provide visual evidence.
+As a citizen, I want to categorize my reported issue (road, water, safety, etc.) so that it reaches the r
+
+
+
+
+
+
+
+
+
+
+n, and categorization for quick citizen reporting.
+horities.
+thorities prioritize issues better.
+
+anagement, estimated 2 weeks.
+or 1 week.
+planned for 1 week.
+
+
+
+
+
+le, description, and category to notify authorities; categorizing issues (road, water, safety, etc.) for p rate authority location.
+visual evidence.
+ 
+Acceptance Criteria	Impact	Effort	Story Points
+- Citizens submit issue with mandatory fields- Issues timest	5	2	4
+- Map integrated with Leaflet.js + OpenStreetMap- Locatio	5	3	2
+- Citizens upload up to 3 images (≤5MB each)- Images stor	3	3	4
+- Citizens select issue category from predefined list- Issues	4	4	5
+	3	2	4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+roper routing.
+ 
+Initiative	Epic
+Efficient Civic Issue Resolution	Epic 3: Issue Management & ResolutionGoal: A
+Efficient Civic Issue Resolution	Epic 3: Issue Management & Resolution
+Efficient Civic Issue Resolution	Epic 3: Issue Management & Resolution
+Efficient Civic Issue Resolution	Epic 3: Issue Management & Resolution
+
+
+
+
+
+
+Capacity Planner
+
+
+
+Section	
+A. Initiative	Efficient Civic Issue Resolution
+B. Project Roadmap	Phase 1 (Weeks 1–2): Develop core features for
+	Phase 2 (Week 3): Implement map location tagg
+	Phase 3 (Week 4): Build advanced features such
+
+C. Capacity Planner	Weeks 1–2: Focus on user registration, issue su
+	Week 3: Focus on map tagging and ID verificatio
+	Week 4: Focus on real-time status updates, assi
+
+
+D. List of Milestones	End of Week 2: OTP-based signup, secure login,
+	End of Week 3: Map location tagging and ID ver
+	End of Week 4: Status updates, assignment to d
+
+E. Mapping of Features G User Stories with Milestones	M1 (Weeks 1–2): Features – OTP-based Signup, Secu
+
+M2 (Week 3): Features – Map Location Tagging, ID V
+ 
+M3 (Week 4): Features – Status Updates, Assignment
+ 
+Feature	User Story
+Feature 3.1: Status UpdatesBenefit Hypothesis: Citizens gain transparency into r	As an admin, I want to update issue statuses from Open to In Progress to
+Feature 3.2: Assignment to DepartmentsBenefit Hypothesis: Issues routed to co	As an admin, I want to assign issues to specific departments so that the r
+Feature 3.3: Activity LogsBenefit Hypothesis: Full history of issue actions mainta	As a citizen, I want to see the history of all updates made to my issue so
+Feature 3.4: Bulk Issue ManagementBenefit Hypothesis: Admins manage multip	As an admin, I want to update or assign multiple issues at once so that I
+
+
+
+
+
+
+
+
+
+
+
+
+
+submitting and categorizing issues along with OTP-based signup and secure login.
+ing and ID verification features to improve accuracy and security.
+as status updates for transparency, admin/backend enhancements including assigning issues to departments, activity logs, and bulk issue management.
+
+bmission, and categorization development.
+n system development.
+gnment routing, activity logging, and bulk issue management tools.
+
+
+issue submission, and categorization completed. ification completed.
+epartments, activity logs, and bulk issue management completed.
+
+re Login, Submit Issue, Categorization. User Stories: Register with email and OTP; secure login; submit issue with title, description, and category. erification. User Stories: Tag issue location on map; upload ID for verification.
+ 
+
+ 
+Acceptance Criteria	Impact	Effort	Story Points
+- Admin can change issue status- Status change logged with timesta	5	2	2
+- Admin assigns issue to department/personnel- Assignment reflec	5	3	3
+- Each action (status update, comment, assignment) logged- Logs vi	3	3	4
+- Admin selects multiple issues- Bulk status/assignment supported-	4	4	5
+	3	2	4
+ 
+
+ 
+
+Initiative	Epic
+Improving Transparency and Community Collaboration	Epic 4: Commenting & CollaborationGoal: Citizens and admin
+Improving Transparency and Community Collaboration	Epic 4: Commenting & Collaboration
+Improving Transparency and Community Collaboration	Epic 4: Commenting & Collaboration
+Improving Transparency and Community Collaboration	Epic 4: Commenting & Collaboration
+
+
+
+Capacity Planner
+
+
+
+Section	
+A. Initiative	Improving Transparency and Community Collaboration
+B. Project Roadmap	Phase 1 (Weeks 1–2): Core registration, issue submission, an
+	Phase 2 (Week 3): Location tagging, ID verification, and map
+	Phase 3 (Week 4): Status updates, assignment, activity logs,
+	Phase 4 (Week 5): Build community engagement features inc
+
+C. Capacity Planner	Weeks 1–2: Signup, issue reporting, and categorization devel
+	Week 3: Location tagging and ID verification.
+	Week 4: Status tracking, department assignment, activity log
+	Week 5: Develop discussion threads, notifications, and mode
+
+D. List of Milestones	M1 (Weeks 1–2): Completion of OTP-based signup, secure login, iss
+	M2 (Week 3): Completion of map location tagging and ID verificatio
+	M3 (Week 4): Completion of status updates for transparency, issue
+
+E. Mapping of Features G User Stories with Milestones	M1 (Weeks 1–2): OTP signup, secure login, issue submission, catego
+	User Stories: Register and verify account; submit issue with details
+	M2 (Week 3): Map location tagging, ID verification.
+ 
+
+User Stories: Tag issue locations; upload ID docs.
+M3 (Week 4): Status updates, assignment to departments, activity l
+User Stories: Track progress; route issues; log history; manage mult
+M4 (Week 5): Threaded discussions, real-time notifications, modera
+User Stories: Comment on issues; reply to specific comments; recei
+ 
+
+Feature
+Feature 4.1: Comment ThreadsBenefit Hypothesis: Citizens and adm
+Feature 4.2: Threaded DiscussionsBenefit Hypothesis: Clearer conve
+Feature 4.3: Real-Time NotificationsBenefit Hypothesis: Users stay u
+Feature 4.4: Moderation ToolsBenefit Hypothesis: Safe and respectf
+
+
+
+
+
+
+
+
+
+
+d categorization features.
+ping features.
+bulk issue management.
+luding threaded discussions, real-time notifications, and moderation
+
+opment.
+
+ging, bulk management. ration controls.
+
+ue submission with title, description, and categorization.
+n functionalities.
+assignment to departments, activity logging, and bulk issue management fe
+
+rization.
+and category.
+ 
+
+ 
+
+User Story
+As a citizen, I want to comment on issues so that I can provide additional details or feedback.
+As an admin, I want threaded comments so that I can reply directly to specific user inputs.
+As a citizen, I want to get instant notifications when someone comments on my reported issue so that I stay informed.
+As a moderator, I want to delete inappropriate comments so that discussions remain respectful and safe.
+
+
+
+
+
+
+
+
+
+
+
+
+
+tools.
+
+
+
+
+
+
+
+
+
+atures.
+ 
+
+ 
+
+Acceptance Criteria	Impact	Effort	Story Points
+- Citizens and admins can post comments- Co	5	2	2
+- Nested/threaded comments supported- Repl	5	3	3
+- Socket.IO used for real-time notifications- No	3	3	4
+- Moderators can delete comments- Deletion l	4	4	5
+	3	2	4
+ 
+Initiative
+
+
+Enabling Data-Driven Decision Making for Authorities
+
+Enabling Data-Driven Decision Making for Authorities
+
+Enabling Data-Driven Decision Making for Authorities
+
+Enabling Data-Driven Decision Making for Authorities
+
+Enabling Data-Driven Decision Making for Authorities
+
+
+Section
+
+A.Initiative
+B. Project Roadmap
+
+
+
+
+C. Capacity Planner
+
+
+
+
+D. List of Milestones
+
+
+
+
+E. Mapping of Features & User Stories with Milestones
+ 
+Epic
+Epic 5: Analytics & Reporting
+Goal: Provide insights into reported issues and response effectiveness
+
+Epic 5: Analytics & Reporting
+
+Epic 5: Analytics & Reporting
+
+Epic 5: Analytics & Reporting
+
+Epic 5: Analytics & Reporting
+
+
+Details
+
+Enabling Data-Driven Decision Making for Authorities
+Phase 1 (Weeks 1–2): Build base analytics APIs and database aggregations.
+Phase 2 (Week 3): Develop trend dashboards and resolution metrics visualiza
+Phase 3 (Week 4): Integrate heatmaps and engagement insights.
+Phase 4 (Week 5): Deploy feedback analytics and finalize data export feature
+
+Weeks 1–2: Build backend aggregation APIs, prepare analytics schema.
+Week 3: Design and implement issue trend dashboards.
+Week 4: Integrate heatmaps and performance metrics.
+Week 5: Add engagement insights and feedback analytics reports.
+
+M1 (Weeks 1–2): Completion of analytics API and base schema.
+M2 (Week 3): Completion of trend dashboards and resolution metrics.
+M3 (Week 4): Integration of heatmaps and engagement insights.
+M4 (Week 5): Completion of feedback analytics and reporting exports.
+
+M1 (Weeks 1–2): Setup data schema, create APIs for aggregation.
+User Stories: Backend developer builds aggregation queries; validate data fro
+M2 (Week 3): Implement dashboards and resolution metrics.
+User Stories: Admin views issue trends and resolution charts.
+M3 (Week 4): Integrate heatmaps and citizen engagement insights.
+User Stories: Planner visualizes issue density; analyst views engagement metr
+M4 (Week 5): Implement feedback analytics and export reports.
+User Stories: Admin views feedback ratings and generates reports.
+ 
+Feature
+Feature 5.1: Issue Trends Dashboard
+Benefit Hypothesis: Authorities identify recurring issues and high-risk areas
+Feature 5.2: Resolution Metrics
+Benefit Hypothesis: Improves accountability and efficiency
+Feature 5.3: Heatmaps
+Benefit Hypothesis: Helps visualize issue density and severity across areas
+Feature 5.4: Citizen Engagement Insights
+Benefit Hypothesis: Encourages active participation in community management
+Feature 5.5: Feedback Analytics
+Benefit Hypothesis: Measures satisfaction with issue resolution
+
+
+
+
+
+
+tion. s.
+
+
+
+
+
+
+
+
+
+
+
+m issue collection.
+
+
+
+ics.
+ 
+User Story
+
+
+As an admin, I want to view visual dashboards showing issue trends so that I can plan proactive interventions.
+As an admin, I want to monitor resolution times per department so that I can track performance and accountability.
+
+As a planner, I want to view a heatmap of reported issues so that I can identify problem clusters easily.
+As an analyst, I want to view statistics about active users and their reporting frequency so that I can measure engagement levels.
+
+As an admin, I want to view feedback and rating summaries so that I can evaluate public satisfaction.
+ 
+Acceptance Criteria
+
+- Dashboard displays total issues, status distribution, and trends- Data updates in real-time- Filters by category, dat
+-	Average resolution time displayed per department
+-	Delayed issues flagged automatically
+-	Exportable summary reports available
+-	Heatmap integrates with existing map system
+-	Color intensity reflects issue frequency
+-	Updated dynamically with new reports
+-	Dashboard shows user activity stats
+-	Metrics include total reporters, average reports/user
+-	Insights exportable in CSV/PDF
+-	Average rating per issue category calculated
+-	Feedback visualized as charts
+-	Monthly summary auto-generated
+ 
+Impact	Effort	Story Points
+
+
+5	
+
+2	
+
+2
+
+
+5	
+
+3	
+
+3
+
+
+3	
+
+3	
+
+4
+
+
+4	
+
+4	
+
+5
+
+
+3	
+
+2	
+
+4
+ 
+QuickCare – Authentication s Onboarding Module
+Narrative
+Who: As a Citizen or Admin user of QuickCare
+What: I want a secure and user-friendly onboarding system with flexible authentication options.
+Why: So that I can easily access the platform, ensure data security, and seamlessly transition into role-specific dashboards.
+
+Scope
+•	Allow citizens to register with email and OTP verification.
+•	Enable secure JWT-based login for all users.
+•	Provide role-based access (Citizen vs. Admin).
+•	Support password reset via email.
+•	Allow users to manage and update profile details.
+•	Ensure all sensitive data is encrypted and compliant with data privacy standards.
+•	Enable onboarding completion within ≤5 minutes.
+
+Define Completion
+•	95% of new users can register successfully on first attempt.
+•	Email-based OTP verification functional and secure.
+•	Login/authentication response time ≤2 seconds.
+•	User roles (Citizen/Admin) enforced at all endpoints.
+•	Password reset fully functional with encrypted storage.
+•	Profile update functionality tested and reliable.
+•	Security audits confirm no sensitive data stored in plain text.
+
+Summary
+ 
+Enable QuickCare users to securely register, log in, and onboard into the platform with minimal effort and maximum security. Provides smooth authentication, password
+recovery, and role-based access to core features.
+
+Benefit Hypothesis
+By providing a fast, secure, and user-friendly authentication and onboarding module,
+QuickCare ensures strong adoption, builds trust with users, and prevents unauthorized access. Citizens can quickly begin reporting issues, while admins can manage civic resolutions effectively.
+
+Description
+This module handles the authentication and onboarding of QuickCare users:
+•	Registration: Citizens register with email and OTP verification.
+•	Authentication: JWT tokens issued for login sessions, ensuring secure access.
+•	Role Management: Default role is Citizen; Admin assigned by project sponsor.
+•	Profile Management: Users can update name, contact info, and profile picture.
+•	Password Reset: Secure reset link sent to registered email.
+•	Security: Passwords hashed (bcrypt), sensitive data encrypted in database.
+•	Performance: Authentication requests completed in ≤2 seconds.
+
+Acceptance Criteria
+•	Citizens can successfully register with email + OTP verification.
+•	Admin roles can be created and assigned only by authorized personnel.
+•	JWT tokens used for all authenticated API calls.
+•	Users can update their profile and see changes immediately.
+•	Password reset flow works end-to-end with no plain-text password storage.
+•	Login sessions automatically expire after a set duration (e.g., 24 hours).
+•	Security tests confirm compliance with encryption and data privacy standards.
+ 
+
+Initiative	Epic
+Improving Transparency and Community Collaboration	Epic 4: Commenting & CollaborationGoal: Citizens and admin
+Improving Transparency and Community Collaboration	Epic 4: Commenting & Collaboration
+Improving Transparency and Community Collaboration	Epic 4: Commenting & Collaboration
+Improving Transparency and Community Collaboration	Epic 4: Commenting & Collaboration
+
+
+
+Capacity Planner
+
+
+
+Section	
+A. Initiative	Improving Transparency and Community Collaboration
+B. Project Roadmap	Phase 1 (Weeks 1–2): Core registration, issue submission, an
+	Phase 2 (Week 3): Location tagging, ID verification, and map
+	Phase 3 (Week 4): Status updates, assignment, activity logs,
+	Phase 4 (Week 5): Build community engagement features inc
+
+C. Capacity Planner	Weeks 1–2: Signup, issue reporting, and categorization devel
+	Week 3: Location tagging and ID verification.
+	Week 4: Status tracking, department assignment, activity log
+	Week 5: Develop discussion threads, notifications, and mode
+
+D. List of Milestones	M1 (Weeks 1–2): Completion of OTP-based signup, secure login, iss
+	M2 (Week 3): Completion of map location tagging and ID verificatio
+	M3 (Week 4): Completion of status updates for transparency, issue
+
+E. Mapping of Features G User Stories with Milestones	M1 (Weeks 1–2): OTP signup, secure login, issue submission, catego
+	User Stories: Register and verify account; submit issue with details
+	M2 (Week 3): Map location tagging, ID verification.
+ 
+
+User Stories: Tag issue locations; upload ID docs.
+M3 (Week 4): Status updates, assignment to departments, activity l
+User Stories: Track progress; route issues; log history; manage mult
+M4 (Week 5): Threaded discussions, real-time notifications, modera
+User Stories: Comment on issues; reply to specific comments; recei
+ 
+
+Feature
+Feature 4.1: Comment ThreadsBenefit Hypothesis: Citizens and adm
+Feature 4.2: Threaded DiscussionsBenefit Hypothesis: Clearer conve
+Feature 4.3: Real-Time NotificationsBenefit Hypothesis: Users stay u
+Feature 4.4: Moderation ToolsBenefit Hypothesis: Safe and respectf
+
+
+
+
+
+
+
+
+
+
+d categorization features.
+ping features.
+bulk issue management.
+luding threaded discussions, real-time notifications, and moderation
+
+opment.
+
+ging, bulk management. ration controls.
+
+ue submission with title, description, and categorization.
+n functionalities.
+assignment to departments, activity logging, and bulk issue management fe
+
+rization.
+and category.
+ 
+
+ 
+
+User Story
+As a citizen, I want to comment on issues so that I can provide additional details or feedback.
+As an admin, I want threaded comments so that I can reply directly to specific user inputs.
+As a citizen, I want to get instant notifications when someone comments on my reported issue so that I stay informed.
+As a moderator, I want to delete inappropriate comments so that discussions remain respectful and safe.
+
+
+
+
+
+
+
+
+
+
+
+
+
+tools.
+
+
+
+
+
+
+
+
+
+atures.
+ 
+
+ 
+
+Acceptance Criteria	Impact	Effort	Story Points
+- Citizens and admins can post comments- Co	5	2	2
+- Nested/threaded comments supported- Repl	5	3	3
+- Socket.IO used for real-time notifications- No	3	3	4
+- Moderators can delete comments- Deletion l	4	4	5
+	3	2	4
+ 
+Initiative	Epic
+Enabling Secure & Seamless Access	Epic 1: Authentication & OnboardingGoal: Fast, sec
+Enabling Secure & Seamless Access	Epic 1: Authentication & Onboarding
+Enabling Secure & Seamless Access	Epic 1: Authentication & Onboarding
+Enabling Secure & Seamless Access	Epic 1: Authentication & Onboarding
+Enabling Secure & Seamless Access	Epic 1: Authentication & Onboarding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Capacity Planner
+
+
+
+Section
+ 
+A. Initiative	Enabling Secure & Seamless Access
+B. Project Roadmap	Phase 1 (Week 1–Week 2): Focus on quick wins by i
+	Phase 2 (Week 3): Work on major project feature I
+	Phase 3 (Week 4): Implement enhancements includ
+
+C. Capacity Planner	Week 1–2: Allocate resources to build OTP-based S
+	Week 3: Allocate resources for ID Verification devel
+	Week 4: Allocate resources for enhancements inclu
+
+D. List of Milestones	End of Week 2: Completion of OTP-based Signup an
+	End of Week 3: Completion of ID Verification.
+	End of Week 4: Completion of Admin Verification a
+
+E. Mapping of Features & User Stories with Milestones	M1 (Weeks 1–2): Features – OTP-based Signup, Sec
+
+M2 (Week 3): Feature – ID Verification. User Story: M3 (Week 4): Features – Admin and Platform Enha
+ 
+Feature
+Feature 1.1: Registration with OTPBenefit Hypothesis: Citizens onb
+Feature 1.2: JWT LoginBenefit Hypothesis: Users access securely w
+Feature 1.3: Role ManagementBenefit Hypothesis: Access restricte
+Feature 1.4: Profile ManagementBenefit Hypothesis: Users mainta
+Feature 1.5: Password ResetBenefit Hypothesis: Users recover acc
+ 
+
+ 
+User Story
+As a citizen, I want to register using my email and verify via OTP so that I can securely join QuickCare.
+As a user, I want to log in with JWT authentication so that I can securely access the platform.
+As an admin, I want to manage user roles so that only authorized users can access admin features.
+As a user, I want to update my profile so that my information is always accurate.
+As a user, I want to reset my password securely so that I can regain access if I forget it.
+ 
+
+ 
+Acceptance Criteria	Impact	Effort	Story Points
+- User registers with email and OTP- OTP expires in 5 minutes-	5	2	2
+- JWT tokens issued upon login- Invalid tokens rejected- Sessio	5	3	3
+- Default role is Citizen- Admin roles assigned only by sponsor-	3	3	4
+- Users can update profile info- Changes reflected instantly- Pr	4	4	5
+- Reset link sent to registered email- No plain-text passwords s	3	2	4
+ 
+Initiative	Epic
+Enhancing Civic Engagement with Real-Time Reporting	Epic 2: Issue ReportingGoal:
+Enhancing Civic Engagement with Real-Time Reporting	Epic 2: Issue Reporting
+Enhancing Civic Engagement with Real-Time Reporting	Epic 2: Issue Reporting
+Enhancing Civic Engagement with Real-Time Reporting	Epic 2: Issue Reporting
+
+
+
+
+Capacity Planner
+
+
+
+Section	
+A. Initiative	Enhancing Civic Engagement
+B. Project Roadmap	Phase 1 (Weeks 1–2): Imple
+	Phase 2 (Week 3): Develop
+	Phase 3 (Week 4): Enable im
+
+C. Capacity Planner	Weeks 1–2: Focus on backen
+	Week 3: Allocate resources t
+	Week 4: Allocate resources f
+
+D. List of Milestones	End of Week 2: Completion
+	End of Week 3: Completion
+	End of Week 4: Completion
+
+E. Mapping of Features G User Stories with Milestones	M1 (Weeks 1–2): Features –
+
+M2 (Week 3): Feature – Map M3 (Week 4): Feature – Ima
+ 
+Feature
+Feature 2.1: Submit IssueBenefit Hypothesis: Citizens can raise civi
+Feature 2.2: Map Location TaggingBenefit Hypothesis: Authorities
+Feature 2.3: Image UploadsBenefit Hypothesis: Authorities receive
+Feature 2.4: CategorizationBenefit Hypothesis: Authorities prioritiz
+
+
+
+
+
+
+
+
+
+with Real-Time Reporting
+ment features for submitting issues, including issue title, descriptio map location tagging to enable precise location identification by aut age uploads for visual proof and enhance categorization to help au
+
+d and frontend development for issue submission and category m o build and integrate map location tagging functionality, planned f or image upload feature and enhancement of issue categorization,
+
+of issue submission and categorization features. of map location tagging.
+of image uploads and enhanced categorization features.
+
+Submit Issue, Categorization. User Stories: Submit an issue with tit Location Tagging. User Story: Tag issue location on a map for accu ge Uploads. User Story: Upload images with issue report to provide
+ 
+User Story
+As a citizen, I want to submit an issue with a title, description, and category so that I can notify auth
+As a citizen, I want to tag the issue location on a map so that authorities can locate it accurately.
+As a citizen, I want to upload images with my issue report so that I can provide visual evidence.
+As a citizen, I want to categorize my reported issue (road, water, safety, etc.) so that it reaches the r
+
+
+
+
+
+
+
+
+
+
+n, and categorization for quick citizen reporting.
+horities.
+thorities prioritize issues better.
+
+anagement, estimated 2 weeks.
+or 1 week.
+planned for 1 week.
+
+
+
+
+
+le, description, and category to notify authorities; categorizing issues (road, water, safety, etc.) for p rate authority location.
+visual evidence.
+ 
+Acceptance Criteria	Impact	Effort	Story Points
+- Citizens submit issue with mandatory fields- Issues timest	5	2	4
+- Map integrated with Leaflet.js + OpenStreetMap- Locatio	5	3	2
+- Citizens upload up to 3 images (≤5MB each)- Images stor	3	3	4
+- Citizens select issue category from predefined list- Issues	4	4	5
+	3	2	4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+roper routing.
+ 
+Initiative	Epic
+Efficient Civic Issue Resolution	Epic 3: Issue Management & ResolutionGoal: A
+Efficient Civic Issue Resolution	Epic 3: Issue Management & Resolution
+Efficient Civic Issue Resolution	Epic 3: Issue Management & Resolution
+Efficient Civic Issue Resolution	Epic 3: Issue Management & Resolution
+
+
+
+
+
+
+Capacity Planner
+
+
+
+Section	
+A. Initiative	Efficient Civic Issue Resolution
+B. Project Roadmap	Phase 1 (Weeks 1–2): Develop core features for
+	Phase 2 (Week 3): Implement map location tagg
+	Phase 3 (Week 4): Build advanced features such
+
+C. Capacity Planner	Weeks 1–2: Focus on user registration, issue su
+	Week 3: Focus on map tagging and ID verificatio
+	Week 4: Focus on real-time status updates, assi
+
+
+D. List of Milestones	End of Week 2: OTP-based signup, secure login,
+	End of Week 3: Map location tagging and ID ver
+	End of Week 4: Status updates, assignment to d
+
+E. Mapping of Features G User Stories with Milestones	M1 (Weeks 1–2): Features – OTP-based Signup, Secu
+
+M2 (Week 3): Features – Map Location Tagging, ID V
+ 
+M3 (Week 4): Features – Status Updates, Assignment
+ 
+Feature	User Story
+Feature 3.1: Status UpdatesBenefit Hypothesis: Citizens gain transparency into r	As an admin, I want to update issue statuses from Open to In Progress to
+Feature 3.2: Assignment to DepartmentsBenefit Hypothesis: Issues routed to co	As an admin, I want to assign issues to specific departments so that the r
+Feature 3.3: Activity LogsBenefit Hypothesis: Full history of issue actions mainta	As a citizen, I want to see the history of all updates made to my issue so
+Feature 3.4: Bulk Issue ManagementBenefit Hypothesis: Admins manage multip	As an admin, I want to update or assign multiple issues at once so that I
+
+
+
+
+
+
+
+
+
+
+
+
+
+submitting and categorizing issues along with OTP-based signup and secure login.
+ing and ID verification features to improve accuracy and security.
+as status updates for transparency, admin/backend enhancements including assigning issues to departments, activity logs, and bulk issue management.
+
+bmission, and categorization development.
+n system development.
+gnment routing, activity logging, and bulk issue management tools.
+
+
+issue submission, and categorization completed. ification completed.
+epartments, activity logs, and bulk issue management completed.
+
+re Login, Submit Issue, Categorization. User Stories: Register with email and OTP; secure login; submit issue with title, description, and category. erification. User Stories: Tag issue location on map; upload ID for verification.
+ 
+
+ 
+Acceptance Criteria	Impact	Effort	Story Points
+- Admin can change issue status- Status change logged with timesta	5	2	2
+- Admin assigns issue to department/personnel- Assignment reflec	5	3	3
+- Each action (status update, comment, assignment) logged- Logs vi	3	3	4
+- Admin selects multiple issues- Bulk status/assignment supported-	4	4	5
+	3	2	4
+ 
+
